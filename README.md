@@ -8,3 +8,4 @@ The following command will install the defined dependencies for this project.
 poetry install
 ```
 Note: for the exact reproduction, use the `poetry.lock` provided in this repo.
+Run `main.py` to reproduce the result.
