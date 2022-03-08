@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ksas_2022_spring"
+version = "0.1.0"
+description = "Code for the paper, \"Aircraft Controller Design Using Continuous-action Q-learning Based on Differentiable Convex Optimization\", presented at KSAS 2022 Spring Conference."
+authors = ["JinraeKim <kjl950403@gmail.com>"]
+license = "MIT License"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+diffql = "0.1.1"
+matplotlib = "^3.5.1"
+torch = "^1.10.2"
+numpy = "^1.22.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
